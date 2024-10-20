@@ -42,13 +42,18 @@ Project setup :
 
 First setup the DB locally using Docker or using pgadmin application 
 i] using docker 
+```
 docker run --name postgres-admin-db -e POSTGRES_DB=admin -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin -p 5432:5432 -d postgres
+```
 
-
+```
  cd .\weather-monitoring-backend\
  npm i express axios cors pg nodemailer 
- node .\server.js ## This will start the backend 
+ node .\server.js ## This will start the backend
+```
 
+```
  cd .\weather-frontend\
  npm i
- npm run dev ##This will start the frontend 
+ npm run dev ##This will start the frontend
+```
